@@ -63,6 +63,38 @@ footer,header,hgroup,menu,nav,section {
    display: block;
 }
 
+.title{
+   margin-left: 20%;
+}
+
+.terapias{
+   max-height: 100vh;
+   margin: 0;
+   
+   background-size: cover !important;
+   color: white;
+   padding-left: 20%;
+   padding-right: 20%;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+   .title{
+      margin-left: 5%;
+   }
+   
+   .terapias{
+      padding-left: 0%;
+      padding-right: 0%;
+   
+   }
+}
+
+
+
 audio,
 canvas,
 video {
