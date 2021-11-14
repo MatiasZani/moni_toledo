@@ -68,6 +68,9 @@ footer,header,hgroup,menu,nav,section {
 }
 
 .terapias{
+
+   box-shadow: black;
+
    max-height: 100vh;
    margin: 0;
    
@@ -79,8 +82,70 @@ footer,header,hgroup,menu,nav,section {
    padding-bottom: 100px;
 }
 
+.regist{
+   background: url('../images/terapias/img4_b.jpg');
+}
+
+.munay{
+   background: url('../images/terapias/img6_b.jpg');
+}
+
+.lectura{
+   background: url('../images/terapias/img5_b.jpg');
+}
+
+.pendulo{
+   background: url('../images/terapias/img7_b.jpg');
+}
+
+.karuna{
+   background: url('../images/terapias/img2_b.jpg');
+}
+
+.vibracional{
+   background: url('../images/terapias/img3_b.jpg');
+}
+
+.reiki{
+   background: url('../images/terapias/img8_b.jpg');
+}
+
+.yoga{
+   background: url('../images/terapias/img1_b.jpg');
+}
+
 @media only screen and (max-width: 767px) {
 
+   .regist{
+      background: url('../images/terapias/img4.jpg') !important;
+   }
+   
+   .munay{
+      background: url('../images/terapias/img6.jpg') !important;
+   }
+
+   .lectura{
+      background: url('../images/terapias/img5.jpg') !important;
+   }
+   
+   .pendulo{
+      background: url('../images/terapias/img7.jpg') !important;
+   }
+
+   .karuna{
+      background: url('../images/terapias/img2.jpg') !important;
+   }
+   .vibracional{
+      background: url('../images/terapias/img3.jpg') !important;
+   }
+
+   .reiki{
+      background: url('../images/terapias/img8.jpg') !important;
+   }
+   
+   .yoga{
+      background: url('../images/terapias/img1.jpg') !important;
+   }
 
    .title{
       margin-left: 5%;
@@ -89,7 +154,6 @@ footer,header,hgroup,menu,nav,section {
    .terapias{
       padding-left: 5%;
       padding-right: 5%;
-   
    }
 }
 
